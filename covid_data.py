@@ -1,10 +1,11 @@
+# Abdurrahman Bulut
+# 1901042258
+# abdurrahmanbulut@yahoo.com
+
 import csv
 import numpy as np  # for variance
 
 
-# PROGRAM WORKS AT THE BOTTOM. Functions are on top in order
-# Now program prints only 18th question to a csv file. Other 17 questions are called in a comment at the bottom.
-# To append other questions to output.csv , uncomment writer functions calls where are at the bottom
 '''
 2 inputs
 pairwise_questions index - 
@@ -498,23 +499,22 @@ def write_q18(covid_data):
 
 covid_data = read_file('owid-covid-data.csv')
 
-# you can uncomment to write each function one by one
 
-# write_q1(covid_data)
-# write_q2(covid_data)
-# write_q3(covid_data)
-# write_q4(covid_data)
-# write_q5(covid_data)
-# write_q6(covid_data)
-# write_q7(covid_data)
-# write_q8(covid_data)
-# write_q9(covid_data)
-# write_q10(covid_data)
-# write_q11(covid_data)
-# write_q12(covid_data)
-# write_q13(covid_data)
-# write_q14(covid_data)
-# write_q15(covid_data)
-# write_q16(covid_data)
-# write_q17(covid_data)
+write_q1(covid_data)
+write_q2(covid_data)
+write_q3(covid_data)
+write_q4(covid_data)
+write_q5(covid_data)
+write_q6(covid_data)
+write_q7(covid_data)
+write_q8(covid_data)
+write_q9(covid_data)
+write_q10(covid_data)
+write_q11(covid_data)
+write_q12(covid_data)
+write_q13(covid_data)
+write_q14(covid_data)
+write_q15(covid_data)
+write_q16(covid_data)
+write_q17(covid_data)
 write_q18(covid_data)
